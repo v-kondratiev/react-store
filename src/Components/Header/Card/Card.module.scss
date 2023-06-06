@@ -1,0 +1,56 @@
+.Card {
+  border: 1px solid #F8F8F8;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+
+  .cardImage {
+    width: 133px;
+    height: 112px;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+
+  }
+
+  .cardBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+
+    .cardPrice {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-size: 13px;
+        opacity: 0.5;
+        text-transform: uppercase;
+
+      }
+
+      b {
+        font-size: 13px;
+
+      }
+
+    }
+
+    .addBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border: 3px solid #F8F8F8;
+      border-radius: 8px;
+    }
+
+
+
+  }
+
+}
